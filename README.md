@@ -94,11 +94,5 @@ Steps to follow:
 * [Maven](https://maven.apache.org/) & [yarn](https://yarnpkg.com/) - Project Management
 * [Kubernetes](https://kubernetes.io/) & [Docker](https://www.docker.com/) - Deployment
 
-## Authors ✒️
-
-* **Jorge Gabín**
-* **Alfonso Landín**
-* **Javier Parapar**
-
 ---
 IRLab ©2021
