@@ -1,0 +1,47 @@
+{
+    "posts": [
+        {
+            "title": "Post 1",
+            "description": "Este es elAAAAAAAAAAAAAAeeeeeeeeeeeeeeeeeeeeeeeeeeAAAAAAAAAAAAAAAAA primer post de ejemplo. Alargo un poco esto",
+            "price": 25.99,
+            "user": {
+                "id": 1,
+                "userName": "Miguel Rodriguez",
+                "avatar": "https://media.istockphoto.com/id/1409608941/es/foto/monte-everest-montañas-nevadas-y-nubes.jpg?s=612x612&w=0&k=20&c=W_tmtrl3ZaB3On2Rt3HHnOdQ5SSqSaYLsRrhdVhLrvA=",
+                "email": "miguel.rodriguezp@udc.es"
+            },
+            "category": {
+                "id": 1,
+                "name": "Clothes"
+            },
+            "images": [
+                "https://firebasestorage.googleapis.com/v0/b/ferramentas-desarrollo.appspot.com/o/0718a401-2b84-45e0-9c53-f59e27e8a77a?alt=media&token=21cd499b-e42c-4d6d-8f23-a1d76abc3fd7&_gl=1*z46kew*_ga*NjIzNDE2NzM5LjE2OTg3MDQwMDk.*_ga_CW55HF8NVT*MTY5OTAzMTE4MS4zLjEuMTY5OTAzMTE5MS41MC4wLjA.",
+                "https://media.istockphoto.com/id/950688808/es/foto/disfrutar-de-cócteles-en-la-piscina.jpg?s=612x612&w=0&k=20&c=75uztjaBW6w6Yo06SsBAHnUHXttPYX1Vo9n_E6l7oKY=",
+                "https://media.istockphoto.com/id/1040315976/es/foto/mujer-busca-en-vista-de-una-cueva-de-matera-basilicata-italy.jpg?s=612x612&w=0&k=20&c=CvPhy2wn5bVqeCRZ0Tbp9WjJX5VZgTxFdAgqcudngFg="
+            ],
+            "type": "COUPON",
+            "couponCode": "DESC10"
+        },
+        {
+            "title": "Post 2",
+            "description": "Un segundo post para mostrar funcionalidad.",
+            "price": 19.95,
+            "user": {
+                "id": 2,
+                "userName": "usuario2",
+                "avatar": "https://random.imagecdn.app/avatar2.jpg",
+                "email": "usuario2@example.com"
+            },
+            "category": {
+                "id": 1,
+                "name": "COUPON"
+            },
+            "images": [
+                "https://media.istockphoto.com/id/950688808/es/foto/disfrutar-de-cócteles-en-la-piscina.jpg?s=612x612&w=0&k=20&c=75uztjaBW6w6Yo06SsBAHnUHXttPYX1Vo9n_E6l7oKY=",
+                "https://media.istockphoto.com/id/1040315976/es/foto/mujer-busca-en-vista-de-una-cueva-de-matera-basilicata-italy.jpg?s=612x612&w=0&k=20&c=CvPhy2wn5bVqeCRZ0Tbp9WjJX5VZgTxFdAgqcudngFg="
+            ],
+            "type": "COUPON",
+            "couponCode": "DESC10"
+        }
+    ]
+}

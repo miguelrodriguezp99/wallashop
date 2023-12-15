@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginInput component matches snapshot 1`] = `
+<div
+  className="form__group field"
+>
+  <input
+    className="form__field"
+    name="test"
+    onChange={[Function]}
+    placeholder="Enter text"
+    required=""
+    type="text"
+    value="1"
+  />
+  <label
+    className="form__label"
+    htmlFor="name"
+  >
+    Enter text
+  </label>
+</div>
+`;

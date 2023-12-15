@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+head {
+  background-color: black;
+}
+
+.html-menu {
+  background-color: black;
+}
+
+.hover\:shadow-white:hover {
+  
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  /* Cambia el color y la intensidad de la sombra según tus preferencias */
+}
+
+html {
+  background-color: black;
+}

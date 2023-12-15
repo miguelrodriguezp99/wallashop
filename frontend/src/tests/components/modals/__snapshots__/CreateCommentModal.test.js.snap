@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateCommentModal component renders without errors, shows the Submit button, and matches snapshot 1`] = `
+<button
+  className="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-unit-4 min-w-unit-20 h-unit-10 text-small gap-unit-2 [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover border border-gray-600 rounded text-white bg-[#18181B] hover:bg-gray-700"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragStart={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchCancel={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  type="button"
+>
+  <svg
+    color="white"
+    fill="currentColor"
+    height={25}
+    stroke="currentColor"
+    strokeWidth="0"
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+    viewBox="0 0 24 24"
+    width={25}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M20 2H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h3v3.767L13.277 18H20c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zm0 14h-7.277L9 18.233V16H4V4h16v12z"
+    />
+    <path
+      d="M11 14h2v-3h3V9h-3V6h-2v3H8v2h3z"
+    />
+  </svg>
+</button>
+`;

@@ -1,0 +1,17 @@
+.navbar-css {
+    position: fixed;
+    /* Fija la barra de navegación en la parte superior de la ventana */
+    top: 0;
+    /* Coloca la barra de navegación en la parte superior */
+    left: 0;
+    right: 0;
+    background-color: black;
+    /* Fondo negro para la barra de navegación */
+    z-index: 1000;
+    /* Ajusta el valor de z-index según tus necesidades, debe ser mayor que cualquier otro elemento en la página */
+    /* ... otros estilos ... */
+}
+
+.html-menu {
+    background: black;
+}

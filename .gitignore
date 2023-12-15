@@ -1,0 +1,16 @@
+**/build/
+**/node_modules/
+**/coverage
+
+.classpath
+.idea
+.project
+.settings
+.vscode
+.rome.json
+
+pnpm-lock.yaml
+
+rome.json
+target
+package-lock.json

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useNotificationsStore fetches notifications correctly 1`] = `Array []`;
+
+exports[`useNotificationsStore matches snapshot 1`] = `
+Object {
+  "current": null,
+}
+`;

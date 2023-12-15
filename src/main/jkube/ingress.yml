@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: wallashop-ingress
+  annotations:
+    ingress.kubernetes.io/rewrite-target: /wallashop
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /wallashop
+            pathType: Prefix
+            backend:
+              service:
+                name: wallashop
+                port:
+                  number: 8080

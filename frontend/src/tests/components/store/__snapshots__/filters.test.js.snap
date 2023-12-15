@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useFiltersStore fetches posts correctly 1`] = `Array []`;
+
+exports[`useFiltersStore searches posts correctly with criteria 1`] = `Array []`;

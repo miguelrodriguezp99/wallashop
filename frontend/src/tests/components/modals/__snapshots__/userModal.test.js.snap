@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserModal renders correctly 1`] = `
+Array [
+  <button
+    onClick={[Function]}
+  >
+    <img
+      alt="Rounded avatar"
+      className="w-12 h-12 rounded-full"
+    />
+  </button>,
+  <div
+    className="mt-20"
+  />,
+]
+`;

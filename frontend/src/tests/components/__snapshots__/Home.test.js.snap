@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rensders correctly 1`] = `
+<div
+  className="home"
+>
+  <div
+    className="content"
+  >
+    <h1
+      className="text-7xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text"
+    >
+      Our Articles
+    </h1>
+    <div
+      className="mt-5 max-w-full mx-auto flex items-center align-center justify-center flex-wrap gap-3"
+    >
+      <div
+        className="flex justify-center align-center"
+      >
+        <div
+          className="mt-2"
+        >
+          <div
+            className="relative w-full min-w-[200px] text-gray-900 h-2"
+            id="range"
+            type="range"
+          >
+            <label
+              className="absolute inset-0 z-10 rounded-l-full h-full pointer-events-none bg-current"
+              style={
+                Object {
+                  "width": "0%",
+                }
+              }
+            />
+            <input
+              className="w-full absolute inset-0 bg-transparent cursor-pointer focus:outline-none focus:outline-0 appearance-none [-webkit-appearance:none] [&::-webkit-slider-runnable-track]:h-full [&::-moz-range-track]:h-full [&::-webkit-slider-runnable-track]:rounded-full [&::-moz-range-track]:rounded-full [&::-webkit-slider-runnable-track]:bg-blue-gray-100 [&::-moz-range-track]:bg-blue-gray-100 [&::-moz-range-thumb]:appearance-none [&::-moz-range-thumb]:[-webkit-appearance:none] [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:[-webkit-appearance:none] [&::-moz-range-thumb]:rounded-full [&::-webkit-slider-thumb]:rounded-full [&::-moz-range-thumb]:border-0 [&::-webkit-slider-thumb]:border-0 [&::-moz-range-thumb]:ring-2 [&::-webkit-slider-thumb]:ring-2 [&::-moz-range-thumb]:ring-current [&::-webkit-slider-thumb]:ring-current [&::-moz-range-thumb]:bg-white [&::-webkit-slider-thumb]:bg-white [&::-moz-range-thumb]:relative [&::-webkit-slider-thumb]:relative [&::-moz-range-thumb]:z-20 [&::-webkit-slider-thumb]:z-20 [&::-moz-range-thumb]:w-3.5 [&::-webkit-slider-thumb]:w-3.5 [&::-moz-range-thumb]:h-3.5 [&::-webkit-slider-thumb]:h-3.5 [&::-moz-range-thumb]:-mt-[3px] [&::-webkit-slider-thumb]:-mt-[3px]"
+              defaultValue={0}
+              max={100}
+              min={0}
+              onChange={[Function]}
+              step={1}
+              type="range"
+            />
+          </div>
+          <span
+            className="ml-2 mr-2"
+          >
+            0
+            €
+          </span>
+          <div
+            className="inline-flex mt-2"
+          >
+            <button
+              className="bg-green-300 hover:bg-green-400 text-gray-800 font-bold py-1 px-4 rounded-l"
+              onClick={[Function]}
+            >
+              ↑
+            </button>
+            <button
+              className="bg-red-300 hover:bg-red-400 text-gray-800 font-bold py-1 px-4 rounded-r"
+              onClick={[Function]}
+            >
+              ↓
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="relative w-full min-w-[200px] h-10"
+        >
+          <button
+            aria-expanded="false"
+            aria-haspopup="listbox"
+            className="peer w-full h-full font-sans font-normal text-left outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 disabled:cursor-not-allowed transition-all border text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 text-white bg-gray-400"
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onPointerDown={[Function]}
+            role="combobox"
+            type="button"
+          >
+            <span
+              className="absolute top-2/4 -translate-y-2/4 left-3 pt-0.5"
+            />
+            <div
+              className="grid place-items-center absolute top-2/4 right-2 pt-px w-5 h-5 text-blue-gray-400 rotate-0 -translate-y-2/4 transition-all"
+            >
+              <svg
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clipRule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  fillRule="evenodd"
+                />
+              </svg>
+            </div>
+          </button>
+          <label
+            className="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal transition-all -top-1.5 before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 before:rounded-tl-md before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 after:rounded-tr-md after:pointer-events-none after:transition-all peer-disabled:after:border-transparent text-sm peer-disabled:text-blue-gray-400 leading-[3.75] text-blue-gray-400 before:border-transparent after:border-transparent"
+          >
+            Select category
+          </label>
+        </div>
+        <div
+          className="inline-flex mt-2"
+        >
+          <button
+            className="bg-green-300 hover:bg-green-400 text-gray-800 font-bold py-1 px-4 rounded-l"
+            onClick={[Function]}
+          >
+            ↑
+          </button>
+          <button
+            className="bg-red-300 hover:bg-red-400 text-gray-800 font-bold py-1 px-4 rounded-r"
+            onClick={[Function]}
+          >
+            ↓
+          </button>
+        </div>
+      </div>
+      <div>
+        <div
+          className="ml-2 mr-2"
+        >
+          <div
+            className="relative w-full min-w-[200px] h-10"
+          >
+            <button
+              aria-expanded="false"
+              aria-haspopup="listbox"
+              className="peer w-full h-full font-sans font-normal text-left outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 disabled:cursor-not-allowed transition-all border text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 text-white bg-gray-400"
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onPointerDown={[Function]}
+              role="combobox"
+              type="button"
+            >
+              <span
+                className="absolute top-2/4 -translate-y-2/4 left-3 pt-0.5"
+              />
+              <div
+                className="grid place-items-center absolute top-2/4 right-2 pt-px w-5 h-5 text-blue-gray-400 rotate-0 -translate-y-2/4 transition-all"
+              >
+                <svg
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clipRule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </div>
+            </button>
+            <label
+              className="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal transition-all -top-1.5 before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 before:rounded-tl-md before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 after:rounded-tr-md after:pointer-events-none after:transition-all peer-disabled:after:border-transparent text-sm peer-disabled:text-blue-gray-400 leading-[3.75] text-blue-gray-400 before:border-transparent after:border-transparent"
+            >
+              Select Type
+            </label>
+          </div>
+        </div>
+        <div
+          className="inline-flex mt-2"
+        >
+          <button
+            className="bg-green-300 hover:bg-green-400 text-gray-800 font-bold py-1 px-4 rounded-l"
+            onClick={[Function]}
+          >
+            ↑
+          </button>
+          <button
+            className="bg-red-300 hover:bg-red-400 text-gray-800 font-bold py-1 px-4 rounded-r"
+            onClick={[Function]}
+          >
+            ↓
+          </button>
+        </div>
+      </div>
+      <div>
+        <div
+          className="relative w-full min-w-[200px] h-10"
+        >
+          <input
+            className="peer w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 disabled:cursor-not-allowed transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent placeholder:opacity-0 focus:placeholder:opacity-100 text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-teal-500 text-white bg-gray-400"
+            id="search"
+            onChange={[Function]}
+            placeholder=" "
+            type="text"
+            value=""
+          />
+          <label
+            className="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[3.75] text-blue-gray-400 peer-focus:text-teal-500 before:border-blue-gray-200 peer-focus:before:!border-teal-500 after:border-blue-gray-200 peer-focus:after:!border-teal-500 text-teal-200"
+          >
+            Buscar
+             
+          </label>
+        </div>
+        <div
+          className="inline-flex mt-2"
+        >
+          <button
+            className="bg-green-300 hover:bg-green-400 text-gray-800 font-bold py-1 px-4 rounded-l"
+            onClick={[Function]}
+          >
+            ↑
+          </button>
+          <button
+            className="bg-red-300 hover:bg-red-400 text-gray-800 font-bold py-1 px-4 rounded-r"
+            onClick={[Function]}
+          >
+            ↓
+          </button>
+        </div>
+      </div>
+      <div>
+        <div
+          className="ml-2 mr-2"
+        >
+          <div
+            className="relative w-full min-w-[200px] h-10"
+          >
+            <input
+              className="peer w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 disabled:cursor-not-allowed transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent placeholder:opacity-0 focus:placeholder:opacity-100 text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-teal-500 bg-gray-400"
+              id="stillValidFilter"
+              onChange={[Function]}
+              placeholder=" "
+              type="date"
+            />
+            <label
+              className="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[3.75] text-blue-gray-400 peer-focus:text-teal-500 before:border-blue-gray-200 peer-focus:before:!border-teal-500 after:border-blue-gray-200 peer-focus:after:!border-teal-500 text-teal-200"
+            >
+              Still Valid
+               
+            </label>
+          </div>
+        </div>
+        <div
+          className="inline-flex mt-2"
+        >
+          <button
+            className="bg-green-300 hover:bg-green-400 text-gray-800 font-bold py-1 px-4 rounded-l"
+            onClick={[Function]}
+          >
+            ↑
+          </button>
+          <button
+            className="bg-red-300 hover:bg-red-400 text-gray-800 font-bold py-1 px-4 rounded-r"
+            onClick={[Function]}
+          >
+            ↓
+          </button>
+        </div>
+      </div>
+      <div>
+        <div
+          className="relative w-full min-w-[200px] h-10"
+        >
+          <input
+            className="peer w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 disabled:cursor-not-allowed transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent placeholder:opacity-0 focus:placeholder:opacity-100 text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-teal-500 bg-gray-400"
+            id="createdFilter"
+            onChange={[Function]}
+            placeholder=" "
+            type="date"
+          />
+          <label
+            className="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[3.75] text-blue-gray-400 peer-focus:text-teal-500 before:border-blue-gray-200 peer-focus:before:!border-teal-500 after:border-blue-gray-200 peer-focus:after:!border-teal-500 text-teal-200"
+          >
+            Created
+             
+          </label>
+        </div>
+        <div
+          className="inline-flex mt-2"
+        >
+          <button
+            className="bg-green-300 hover:bg-green-400 text-gray-800 font-bold py-1 px-4 rounded-l"
+            onClick={[Function]}
+          >
+            ↑
+          </button>
+          <button
+            className="bg-red-300 hover:bg-red-400 text-gray-800 font-bold py-1 px-4 rounded-r"
+            onClick={[Function]}
+          >
+            ↓
+          </button>
+        </div>
+      </div>
+      <div>
+        <div
+          className="ml-2 mr-2"
+        >
+          <div
+            className="relative w-full min-w-[200px] h-10"
+          >
+            <input
+              className="peer w-full h-full bg-transparent text-blue-gray-700 font-sans font-normal outline outline-0 focus:outline-0 disabled:bg-blue-gray-50 disabled:border-0 disabled:cursor-not-allowed transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 border focus:border-2 border-t-transparent focus:border-t-transparent placeholder:opacity-0 focus:placeholder:opacity-100 text-sm px-3 py-2.5 rounded-[7px] border-blue-gray-200 focus:border-teal-500 bg-gray-400"
+              id="expDate"
+              onChange={[Function]}
+              placeholder=" "
+              type="date"
+            />
+            <label
+              className="flex w-full h-full select-none pointer-events-none absolute left-0 font-normal !overflow-visible truncate peer-placeholder-shown:text-blue-gray-500 leading-tight peer-focus:leading-tight peer-disabled:text-transparent peer-disabled:peer-placeholder-shown:text-blue-gray-500 transition-all -top-1.5 peer-placeholder-shown:text-sm text-[11px] peer-focus:text-[11px] before:content[' '] before:block before:box-border before:w-2.5 before:h-1.5 before:mt-[6.5px] before:mr-1 peer-placeholder-shown:before:border-transparent before:rounded-tl-md before:border-t peer-focus:before:border-t-2 before:border-l peer-focus:before:border-l-2 before:pointer-events-none before:transition-all peer-disabled:before:border-transparent after:content[' '] after:block after:flex-grow after:box-border after:w-2.5 after:h-1.5 after:mt-[6.5px] after:ml-1 peer-placeholder-shown:after:border-transparent after:rounded-tr-md after:border-t peer-focus:after:border-t-2 after:border-r peer-focus:after:border-r-2 after:pointer-events-none after:transition-all peer-disabled:after:border-transparent peer-placeholder-shown:leading-[3.75] text-blue-gray-400 peer-focus:text-teal-500 before:border-blue-gray-200 peer-focus:before:!border-teal-500 after:border-blue-gray-200 peer-focus:after:!border-teal-500 text-teal-200"
+            >
+              Expiration
+               
+            </label>
+          </div>
+        </div>
+        <div
+          className="inline-flex mt-2"
+        >
+          <button
+            className="bg-green-300 hover:bg-green-400 text-gray-800 font-bold py-1 px-4 rounded-l"
+            onClick={[Function]}
+          >
+            ↑
+          </button>
+          <button
+            className="bg-red-300 hover:bg-red-400 text-gray-800 font-bold py-1 px-4 rounded-r"
+            onClick={[Function]}
+          >
+            ↓
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="posts-container"
+    >
+      <section
+        className="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0 bg-black mt-5"
+      >
+        <section
+          className="p-5 md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-start"
+        />
+      </section>
+      <button
+        className="z-0 group inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 min-w-unit-20 h-unit-10 text-small gap-unit-2 [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover fixed bottom-10 right-10 p-5 bg-blue-500 text-white rounded-full shadow-lg"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragStart={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        type="button"
+      >
+        Add Post
+      </button>
+    </div>
+  </div>
+</div>
+`;

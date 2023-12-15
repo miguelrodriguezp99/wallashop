@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostCarousel component renders correctly without images, mathes snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="relative w-full overflow-x-hidden flex rounded-xl min-w-[300px] max-w-[500px] h-auto mt-3 transform duration-500 group shadow hover:shadow-white"
+  >
+    <button
+      class="!absolute top-2/4 left-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-white hover:bg-white/10 active:bg-white/30 grid place-items-center"
+      disabled=""
+    >
+      <svg
+        class="-ml-1 h-7 w-7"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="3"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.75 19.5L8.25 12l7.5-7.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <button
+      class="!absolute top-2/4 right-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-white hover:bg-white/10 active:bg-white/30 grid place-items-center"
+    >
+      <svg
+        class="ml-1 h-7 w-7"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="3"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <div
+      class="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`PostCarousel component renders images correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="relative w-full overflow-x-hidden flex rounded-xl min-w-[300px] max-w-[500px] h-auto mt-3 transform duration-500 group shadow hover:shadow-white"
+  >
+    <div
+      class="w-full h-full inline-block flex-none"
+      style="left: 0%; right: 0%; transform: none;"
+    >
+      <img
+        alt="ds"
+        class="h-full w-full object-cover shadow-xl"
+        src="image1.jpg"
+      />
+    </div>
+    <div
+      class="w-full h-full inline-block flex-none"
+      style="left: 100%; right: 100%; transform: none;"
+    >
+      <img
+        alt="ds"
+        class="h-full w-full object-cover shadow-xl"
+        src="image2.jpg"
+      />
+    </div>
+    <div
+      class="w-full h-full inline-block flex-none"
+      style="left: 200%; right: 200%; transform: none;"
+    >
+      <img
+        alt="ds"
+        class="h-full w-full object-cover shadow-xl"
+        src="image3.jpg"
+      />
+    </div>
+    <button
+      class="!absolute top-2/4 left-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-white hover:bg-white/10 active:bg-white/30 grid place-items-center"
+      disabled=""
+    >
+      <svg
+        class="-ml-1 h-7 w-7"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="3"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M15.75 19.5L8.25 12l7.5-7.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <button
+      class="!absolute top-2/4 right-4 -translate-y-2/4 rounded-full select-none transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none w-12 max-w-[48px] h-12 max-h-[48px] text-white hover:bg-white/10 active:bg-white/30 grid place-items-center"
+    >
+      <svg
+        class="ml-1 h-7 w-7"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="3"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
+    <div
+      class="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2"
+    >
+      <span
+        class="block h-3 w-3 cursor-pointer rounded-full transition-colors content-[''] bg-white"
+      />
+      <span
+        class="block h-3 w-3 cursor-pointer rounded-full transition-colors content-[''] bg-white/50"
+      />
+      <span
+        class="block h-3 w-3 cursor-pointer rounded-full transition-colors content-[''] bg-white/50"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

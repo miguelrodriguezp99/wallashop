@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex items-center justify-center overflow-hidden h-[calc(100vh-65px)]"
+  >
+    <div
+      class="border border-solid border-gray-200 rounded-2xl text-center text-gray-200 font-helvetica py-10 px-16 w-300 mb-80 bg-black mt-60 overflow-hidden hover:border-blue-300"
+    >
+      <h1
+        class="text-7xl font-bold bg-gradient-to-r from-blue-500 to-blue-700 text-transparent bg-clip-text"
+      >
+        LOG IN
+      </h1>
+      <form>
+        <label>
+          <div
+            class="form__group field"
+          >
+            <input
+              class="form__field"
+              name="username"
+              placeholder="Username"
+              type="text"
+              value=""
+            />
+            <label
+              class="form__label"
+              for="name"
+            >
+              Username
+            </label>
+          </div>
+        </label>
+        <label>
+          <div
+            class="form__group field"
+          >
+            <input
+              class="form__field"
+              name="password"
+              placeholder="Password"
+              type="password"
+              value=""
+            />
+            <label
+              class="form__label"
+              for="name"
+            >
+              Password
+            </label>
+          </div>
+        </label>
+        <div
+          class="form-buttons"
+        >
+          <button
+            class="group tap-highlight-transparent transition-transform-colors-opacity data-[hover=true]:opacity-hover z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium bg-transparent px-unit-4 min-w-unit-20 h-unit-10 text-small gap-unit-2 rounded-medium [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none border-primary hover:!text-primary-foreground hover:!bg-primary text-white ml-2 mr-2"
+            href="#"
+            role="button"
+            tabindex="0"
+            type="button"
+          >
+            Log in
+          </button>
+          <button
+            class="group tap-highlight-transparent transition-transform-colors-opacity data-[hover=true]:opacity-hover z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 border-medium bg-transparent px-unit-4 min-w-unit-20 h-unit-10 text-small gap-unit-2 rounded-medium [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none border-primary hover:!text-primary-foreground hover:!bg-primary text-white ml-2 mr-2"
+            href="#"
+            role="button"
+            tabindex="0"
+            type="button"
+          >
+            Home
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

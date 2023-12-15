@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostCard component matches the snapshot 1`] = `
+<DocumentFragment>
+  <article
+    class="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer group hover:shadow-white bg-cardback ml-2 rounded-md"
+  >
+    <div
+      class="folded-ribbon text-lg bg-pink-400"
+    >
+      Oferta
+    </div>
+    <div
+      class=" relative max-h-125 overflow-hidden"
+    >
+      <img
+        alt=""
+        class="absolute rounded-md"
+        src="image1"
+      />
+      <img
+        alt=""
+        class="relative transform duration-500 group-hover:opacity-0 rounded-md"
+        src="image2"
+      />
+    </div>
+    <ul
+      class="mt-6 font-semibold text-gray-500 text-left ml-1"
+    >
+      <li
+        class="inline mr-3 pb-1 border-b-2 border-green-500"
+      >
+        cat
+      </li>
+    </ul>
+    <p
+      class="mt-6 text-xl leading-relaxed text-white"
+    >
+      title
+    </p>
+    <p
+      class="text-gray-400 mt-2 font-semibold text-sm"
+    >
+      20 €
+    </p>
+    <div
+      class="flex flex-row justify-between"
+    >
+      <button
+        class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-unit-4 min-w-unit-20 h-unit-10 text-small gap-unit-2 [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover mt-6 border border-green-600 rounded text-white bg-[#18181B] hover:bg-green-500"
+        type="button"
+      >
+        Details
+      </button>
+      <button
+        class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-unit-4 min-w-unit-20 h-unit-10 text-small gap-unit-2 [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover mt-6 border border-green-600 rounded text-white bg-[#18181B] hover:bg-green-500"
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16.7574 2.99666L14.7574 4.99666H5V18.9967H19V9.2393L21 7.2393V19.9967C21 20.5489 20.5523 20.9967 20 20.9967H4C3.44772 20.9967 3 20.5489 3 19.9967V3.99666C3 3.44438 3.44772 2.99666 4 2.99666H16.7574ZM20.4853 2.09717L21.8995 3.51138L12.7071 12.7038L11.2954 12.7062L11.2929 11.2896L20.4853 2.09717Z"
+          />
+        </svg>
+      </button>
+      <button
+        class="z-0 group relative inline-flex items-center justify-center box-border appearance-none select-none whitespace-nowrap font-normal subpixel-antialiased overflow-hidden tap-highlight-transparent outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 px-unit-4 min-w-unit-20 h-unit-10 text-small gap-unit-2 [&>svg]:max-w-[theme(spacing.unit-8)] data-[pressed=true]:scale-[0.97] transition-transform-colors-opacity motion-reduce:transition-none data-[hover=true]:opacity-hover mt-6 border border-red-600 rounded text-white bg-[#18181B] hover:bg-red-500"
+        type="button"
+      >
+        <svg
+          fill="currentColor"
+          height="20"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+          width="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17 6H22V8H20V21C20 21.5523 19.5523 22 19 22H5C4.44772 22 4 21.5523 4 21V8H2V6H7V3C7 2.44772 7.44772 2 8 2H16C16.5523 2 17 2.44772 17 3V6ZM18 8H6V20H18V8ZM9 4V6H15V4H9Z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      class="relative mt-6 right-1 ml-auto flex-2 text-small"
+    >
+      Still Valid:
+      <br />
+      <span
+        class="text-green-600"
+      >
+        2023-12-31
+      </span>
+      <span
+        class="text-green-600"
+      >
+         12:00:00
+      </span>
+    </div>
+  </article>
+</DocumentFragment>
+`;

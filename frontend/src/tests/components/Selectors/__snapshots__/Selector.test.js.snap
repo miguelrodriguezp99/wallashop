@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selector component matches snapshot 1`] = `
+<div
+  className="group inline-flex flex-col relative transition-background motion-reduce:transition-none !duration-150 w-full"
+  data-filled="true"
+  data-has-label="true"
+  data-slot="base"
+>
+  <div
+    aria-hidden={true}
+    data-a11y-ignore="aria-hidden-focus"
+    data-testid="hidden-select-container"
+    style={
+      Object {
+        "border": 0,
+        "clip": "rect(0 0 0 0)",
+        "clipPath": "inset(50%)",
+        "height": "1px",
+        "margin": "-1px",
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "absolute",
+        "whiteSpace": "nowrap",
+        "width": "1px",
+      }
+    }
+  >
+    <input
+      onChange={[Function]}
+      onFocus={[Function]}
+      style={
+        Object {
+          "fontSize": 16,
+        }
+      }
+      tabIndex={-1}
+      type="text"
+      value=""
+    />
+    <label>
+      Category
+      <select
+        multiple={false}
+        onChange={[Function]}
+        size={4}
+        tabIndex={-1}
+      >
+        <option />
+        <option
+          value="1"
+        >
+          Electronics
+        </option>
+        <option
+          value="2"
+        >
+          Clothes
+        </option>
+        <option
+          value="3"
+        >
+          Furniture
+        </option>
+        <option
+          value="4"
+        >
+          Books
+        </option>
+      </select>
+    </label>
+  </div>
+  <div
+    className="w-full flex flex-col"
+    data-slot="mainWrapper"
+  >
+    <button
+      aria-controls={null}
+      aria-expanded={false}
+      aria-haspopup="listbox"
+      aria-labelledby="react-aria-:r7: react-aria-:r3:"
+      className="relative px-3 w-full inline-flex shadow-sm tap-highlight-transparent bg-default-100 data-[hover=true]:bg-default-200 group-data-[focus=true]:bg-default-100 rounded-medium flex-col items-start justify-center gap-0 outline-none data-[focus-visible=true]:z-10 data-[focus-visible=true]:outline-2 data-[focus-visible=true]:outline-focus data-[focus-visible=true]:outline-offset-2 h-14 min-h-unit-14 py-2"
+      data-slot="trigger"
+      id="react-aria-:r2:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragStart={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchCancel={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      type="button"
+      value="1"
+    >
+      <label
+        className="block absolute z-10 subpixel-antialiased text-foreground-500 pointer-events-none cursor-pointer will-change-auto origin-top-left !duration-200 !ease-out transition-[transform,color,left,opacity] motion-reduce:transition-none group-data-[filled=true]:text-default-600 group-data-[filled=true]:pointer-events-auto group-data-[filled=true]:scale-85 text-small group-data-[filled=true]:-translate-y-[calc(50%_+_theme(fontSize.small)/2_-_6px)] pe-2 max-w-full text-ellipsis overflow-hidden"
+        data-slot="label"
+        id="react-aria-:r3:"
+        onClick={[Function]}
+      >
+        Category
+      </label>
+      <div
+        className="inline-flex h-full w-[calc(100%_-_theme(spacing.unit-6))] min-h-unit-4 items-center gap-1.5 box-border group-data-[has-label=true]:pt-4"
+        data-slot="innerWrapper"
+      >
+        <span
+          className="text-foreground-500 font-normal w-full text-left text-small truncate group-data-[has-value=true]:text-default-foreground"
+          data-slot="value"
+          id="react-aria-:r7:"
+        >
+          Select a category
+        </span>
+      </div>
+      <svg
+        aria-hidden="true"
+        className="absolute right-3 w-unit-4 h-unit-4 transition-transform duration-150 ease motion-reduce:transition-none data-[open=true]:rotate-180"
+        data-slot="selectorIcon"
+        fill="none"
+        focusable="false"
+        height="1em"
+        role="presentation"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={1.5}
+        viewBox="0 0 24 24"
+        width="1em"
+      >
+        <path
+          d="m6 9 6 6 6-6"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
