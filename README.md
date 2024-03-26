@@ -1,98 +1,48 @@
-# Spring-Boot React Project
+# WallaShop - A Wallapop Clone Project
 
-_Example project to start building your own web application_
+## Introduction
 
-## Starting 🚀
+WallaShop is a capstone project for my final year in college, aiming to replicate the core functionalities of the popular buying and selling platform, Wallapop. This project serves as a comprehensive showcase of applying modern web development and software engineering principles to create a fully functional web application. WallaShop enables users to post products for sale, like posts, comment on them, and engage in discussions through replies, creating a vibrant community around buying and selling items.
 
-These instructions will allow you to get a copy of the project running on your local machine for development and testing purposes.
+## Technologies Used
 
-### Requirements 📋
+- **React:** Utilized for building a dynamic and responsive user interface.
+- **NextUI:** Employed for designing a sleek, modern UI with out-of-the-box React components.
+- **Spring Boot:** Used for creating a robust, scalable backend.
+- **Maven:** A build automation tool used for managing project dependencies.
+- **MySQL:** The database choice for storing user data, product information, likes, and comments.
+- **Tailwind CSS:** A utility-first CSS framework for designing custom, responsive layouts with minimal CSS.
+- **CSS:** For additional styling needs, complementing Tailwind CSS.
+- **WebSocket:** Implemented for real-time communication features, enhancing interactivity in comments and live updates.
 
-Software and tools you will need to run this project:
-* Java 17 (_tested version_)
-* Node v18.12.0 (_tested version_)
-* yarn 1.22.19 (_tested version_)
-* Eclipse
-* VS Code (_Reccomended for frontend developement_)
+## Core Features
 
-### Local deployment 🔧
+- **User Registration and Login:** Allows users to create an account, login, and manage their profiles.
+- **Product Posts:** Users can post items for sale, including images, descriptions, and prices.
+- **Likes and Comments:** Features to like posts and comment on them, fostering community engagement.
+- **Reply to Comments:** Enables threaded conversations by allowing replies to specific comments.
+- **Real-Time Updates:** Leveraging WebSocket for real-time notifications and updates in user interactions.
 
-There are two ways to work in your local environment:
+## Project Goals
 
-1. Spring-Boot app in port 8080 and React app in port 3000 (_Recommended for development_)
-2. Both apps running in port 8080
+The primary objective of WallaShop is to demonstrate the ability to develop a full-stack application that incorporates both front-end and back-end technologies to replicate essential features of an existing web application. This project emphasizes:
 
-Let's see how to work with each option.
+- Building a secure, scalable web application.
+- Implementing a clean, intuitive user interface.
+- Ensuring real-time functionality in user interactions.
+- Applying CRUD (Create, Read, Update, Delete) operations within a relational database environment.
 
-_Note: both frontend and backend are configured to start on path /projectname. Moreover frontend subpaths follow this pattern: /projectname/#/subpath (due to deployment requirements it is necessary to use HashRouter instead of BrowserRouter)_
+## Challenges and Learning Outcomes
 
-**1. Access frontend in port 3030 (_Reccomended for development_)**
+Throughout the development of WallaShop, several challenges were encountered, including:
 
-* Install your maven project
-    ```
-    mvn clean install
-    ```
-* Start backend sever
-    ```
-    mvn spring-boot:run
-    ```
-* Install your frontend app (not necessary if mvn install was executed correctly)
-    ```
-    yarn install
-    ```
-* Start react app
-    ```
-    yarn start
-    ```
+- Designing a user-friendly interface while ensuring responsiveness across devices.
+- Managing state across the application to reflect real-time updates.
+- Ensuring the security of user data and implementing efficient, secure authentication mechanisms.
+- Optimizing database queries for performance and scalability.
 
-Now you can test your app in http://localhost:3000/wallashop
+These challenges provided valuable learning experiences in web development, database management, and application security, contributing significantly to my professional growth as a software developer.
 
-**2. Access frontend in port 8080**
+## Conclusion
 
-* Install your maven project
-    ```
-    mvn clean install
-    ```
-* Start the application
-    ```
-    mvn spring-boot:run
-    ```
-Thanks to the provided plugin configuration you can access your React app directly on http://localhost:8080/wallashop
-
-## Deployment 📦
-Production deploy will be made via Jenkins to Kubernetes.
-
-Steps to follow:
-1. Build the project
-    ```
-    mvn clean install
-    ```
-2. Create docker image
-    ```
-    mvn k8s:build
-    ```
-3. Undeploy Kubernetes app (_only needed if app is already deployed_)
-    ```
-    mvn k8s:undeploy
-    ```
-4. Push image to GitLab registry
-    ```
-    mvn k8s:push
-    ```
-5. Deploy pushed image to Kubernetes
-    ```
-    # Generate deploy files
-    mvn k8s:resource
-    # Deploy to Kubernetes
-    mvn k8s:deploy
-    ```
-
-## Built with 🛠️
-
-* [Spring-Boot](https://spring.io/projects/spring-boot) - Backend
-* [React](https://es.reactjs.org/) - User Interface
-* [Maven](https://maven.apache.org/) & [yarn](https://yarnpkg.com/) - Project Management
-* [Kubernetes](https://kubernetes.io/) & [Docker](https://www.docker.com/) - Deployment
-
----
-IRLab ©2021
+WallaShop is not just a project but a testament to the practical application of software engineering principles in creating a functional, real-world application. While the project currently does not have a live web page, the skills and knowledge gained from its development are invaluable and will undoubtedly contribute to future endeavors in the field of software development.
